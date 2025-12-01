@@ -1,5 +1,5 @@
 variable "instance_type"{
-   default = "t2.micro"
+   default = "t3.micro"
 }
 
 data "aws_ami" "app_ami" {
